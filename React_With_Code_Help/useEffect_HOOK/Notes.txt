@@ -1,0 +1,29 @@
+Note:
+Why react app render 2 times
+
+Because App Comonent is in StrictMood or Develop mood
+
+<StrictMood>
+<App/>
+</StrictMood>
+
+
+useEffect Hook:
+              |
+              |-------->Generate Side Effect
+              (Any Activity that create Side Effect ->eye Infecton due reels watching)
+              Example:
+              DOM Content Load->Connection with DB
+              (Event)         ->(Side Effect)
+              Project Render->API's Call
+              (Event)         ->(Side Effect)
+
+Side Effect:
+Kesi perticular event k happining k hony pr app kesi perticular 
+logic ko run karwana chahtey hen us logic ko hm Side Effect Kehtey hen
+
+
+
+
+
+

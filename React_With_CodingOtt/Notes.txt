@@ -1,0 +1,83 @@
+                                       Google
+              ___________________________|______________________
+             |                           |                      |
+        (Senior SD)                   (Jonior SD)           (Fresher)
+
+
+                                        Google
+                __________________________|__________________________
+            (Front-End)                                             (Back-End)
+            (Angular JS)                                                (Go Language)
+
+
+
+                                       Google
+                __________________________|__________________________
+            (Front-End)                                             (Back-End)
+            (React JS)                                                (Node)
+
+
+            Pre-Requsites
+            I)html,CSS,
+            II)JS
+               |=>Array
+                =>Objects
+                =>Loops
+                =>Conditions
+
+      FrameWork                                           Library
+      *)Work in Boundries or rules                        *)100% customizable
+      *)Support your logic                                *)Code manipolation possible
+                                                          *)The archtecture of code or the contorl of your code is in your hand
+
+
+
+      React is note seo Friendly so after react you should learn Next.JS
+
+      React Job Road Map
+      *)html
+      *)css
+      *)JS
+      *)ReactJS
+      *)NextJS
+      *)NodeJS
+      *)ExpressJS
+      *)MongoDB
+      *)Git
+      *)AwsCloud
+      *)Jira
+      How to create React App 
+      1)npx create-react-app coding_Ott
+      2)npx create vite@latest coding_Ott
+
+Project structure
+package.json:
+Coniguration ffiile hota hen jis k ander hmarye
+project me use honeywaly libraries ka declaratioin hota henn version k sath
+Library its defffinition has in package.json
+
+Node Module :
+source code libraries is in node Module
+
+letter Convention(Case):
+-----------------------
+Lower Case (hameed gul)
+Upper Case (Hameed Gul)
+Camel Case (hameedGul)
+Lower Case (HameedGul)
+
+JSX javascript XML (Extensible Markup Language)
+There is no predefine rules for XML
+java scriipt ka isa code jo js awer Markup ka anomati deta hen
+
+JSX Expression{}:
+{}in between Markup
+javascript koi bhe code jsko hm {} k ander laeky Markup ka ander
+
+
+Component:
+Component is a external javascript fiile specially created in react js
+1.Markkup
+2.Pure JS 
+Note: jis me padding,margin ,width,height kam na kare iska matlab wo block level element nahe hen
+so we will do "display:'block'"

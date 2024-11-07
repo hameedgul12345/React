@@ -1,0 +1,19 @@
+                            <--------Props Drilling--------->
+                                           
+                                        Parent
+                                          |
+                 _________________________|_________________________
+                |                         |                         |
+            (ChildA)                   (ChildB)                 (ChildC)
+                |                         |                         |
+                |                         |                         |
+                |                         |                         |
+            (ChildAI)                  (ChildBI)                (ChildCI)
+                |                         |                         |
+                |                         |                         |
+            (ChildAII)                 (ChildBII)               (ChildCII)
+
+
+
+
+            

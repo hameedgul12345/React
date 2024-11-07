@@ -1,0 +1,48 @@
+                                                    Term
+    __________________________________________________|__________________________________________________
+   |
+Action
+(Action is just Object which having Information of event)
+   |
+Slice
+(her ik feature ki state ko maintain karney ka logic Slice mem hota hen  )
+(The logic to maintain the state of each feature is in the slice.)
+  |
+Reducer
+(Are just funnctioins jis ki waja se hm data ko update karsaktey hen change karsaktey hen)
+  |
+Store
+(single source of truth or store me states hotey hen)
+  |
+state
+(data)
+
+
+ ___________________     ____________________________________________________________________________________
+|   ___________     |   |
+|  |           |    |   |
+|  |     0     |    |   |
+|  |___________|    |   |
+|   _____________   |   |
+|  |             |  |   |
+|  | Increament  |  |   |
+|  |_____________|  |   |
+|                   |   |
+|                   |   |
+|                   |   |
+|                   |   |
+|                   |   |
+|                   |   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |
+|                   |                 
+|                   |            
+|___________________|    _______________________________________________________________________________________
+
+
+
+
+
