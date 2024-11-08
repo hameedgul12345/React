@@ -29,8 +29,11 @@
       *)Work in Boundries or rules                        *)100% customizable
       *)Support your logic                                *)Code manipolation possible
                                                           *)The archtecture of code or the contorl of your code is in your hand
-
-
+                                                          *)javascript ka file hota jo har kam ke laey alag banya jata hen
+                                                          he usko internet pr dall dia jata hen jisko hm hm apney project me use 
+                                                          kkartey hen
+        
+                                                               
 
       React is note seo Friendly so after react you should learn Next.JS
 
@@ -77,7 +80,16 @@ javascript koi bhe code jsko hm {} k ander laeky Markup ka ander
 
 Component:
 Component is a external javascript fiile specially created in react js
+To diviide userInterface in react we use Componennts
 1.Markkup
 2.Pure JS 
+
 Note: jis me padding,margin ,width,height kam na kare iska matlab wo block level element nahe hen
 so we will do "display:'block'"
+
+User Defined Componnnent(.JSX) 
+1)it's not in built 
+2)
+Built-in Componnnent(.js)
+
+Export & Import:
