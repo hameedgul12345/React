@@ -93,3 +93,42 @@ User Defined Componnnent(.JSX)
 Built-in Componnnent(.js)
 
 Export & Import:
+
+
+How to run react app on mobile
+cmd=>ipconfic
+ IPv4 Address:portofyourapp
+  192.168.98.239:3000
+
+
+  Note :
+  We can not use Objects in jsx Expression
+
+  <Nav></Nav>                         <Nav/>
+  html                                 xthml
+  
+
+  Routing :
+
+  URL k according jb hm user Inter face ka decision letey henn tu usko Routing kehtey hen
+
+Link vs anchor(a)
+
+Link tag:
+jb menu ko hm Link tag me close kartey hen tu requset server ko nahe jata browser me jo userInterface load howa hen waha se 
+load hota hen
+
+anchor(a) tag :
+jb menu ko hm a tag me close kartey hen tu requset server ko jata server me jo userInterface hen waha se 
+load hota hen
+
+SPA (Single Page Application)::
+Jb hm request kartey hen server se website k link ka  tu request server ko nahe jatha browser me load hochoka hen wahe
+se doabara load hojata hen
+
+SPA is not seo friendly 
+
+
+React -> NextJS
+Vue  -> NuxtJS
+Angular ->universal
