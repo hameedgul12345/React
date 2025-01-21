@@ -16,11 +16,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About/>} />
           <Route path='/teachers' element={<Teachers />} />
-          <Route path='/hollyDays' element={<HollyDays />} />
+          {/* <Route path='/hollyDays' element={<HollyDays />} /> */}
           <Route path='/contact-us' element={<Contactus />} />
         </Routes>
       </BrowserRouter>
-     
       <Footer />
     </>
   );

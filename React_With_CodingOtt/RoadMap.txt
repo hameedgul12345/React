@@ -1,9 +1,13 @@
-Creating a roadmap to master React can help you build a structured learning path that covers core React concepts, advanced topics, and best practices. Here’s a step-by-step roadmap, from beginner to advanced, that you can follow to become proficient in React:
+Creating a roadmap to master React can help you build a structured 
+learning path that covers core React concepts, advanced topics, and 
+best practices. Here’s a step-by-step roadmap, from beginner to advanced, 
+that you can follow to become proficient in React:
 
 ---
 
 ### 1. **Learn the Basics of JavaScript and ES6**
-   - **Key Topics**: Variables, functions, arrays, objects, classes, arrow functions, destructuring, template literals, modules, `this` keyword, promises, async/await.
+   - **Key Topics**: Variables, functions, arrays, objects, classes, arrow functions, destructuring, 
+   template literals, modules, `this` keyword, promises, async/await.
    - **Why**: React is built on JavaScript, so having a strong foundation is crucial.
    - **Suggested Resources**: MDN Web Docs, freeCodeCamp, JavaScript.info.
 

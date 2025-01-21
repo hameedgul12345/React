@@ -1,0 +1,85 @@
+                           Project Manager
+                           1)Scafolding(Project Creation)
+                           2)Installation Liberaries(animate.style,thailwind,react-router-dom,remix.icon)
+                           3)Staging(Deployment of your Project e.g. github, bitbucket, aws)
+
+
+
+                           Github (Website that store your code)
+                           Git(Software to manage your github code)
+
+Set up Git Configuratoin
+------------------------------------------------------------------------------->
+1)git config --global user.name "Hameed Gul"
+2)git config --global user.email "hamidkhan31590@gmail.com"
+------------------------------------------------------------------------------->
+Git Commands:
+1)git init (git Tracker)
+2)git remote add origin (Connect project to your github repository)
+3)git add . (Select your whole project if you want to Select one file e.g( git add index.html))
+4)git commit -m "example"(Tell what you did in the project)
+Branching :
+kis kam ko kaha pr rakna hehn e.g Home page ka home branch me rakna hen, login ka kam login me rakna hen
+5)git checkout -b 'home'
+6)git push origin home
+------------------------------------------------------------------>
+How to assign work to your team member:
+Project Manager:
+=>Go to Repository
+=>Setting
+=>Collaborators
+=>Add People
+=>Paste Member username
+------------------------------------------------------------------->
+Team Member:
+=>checkout email and Accept
+=>Make folder or optional
+=>redirect to folder
+=>git init
+=>git remote add origin https://github.com/hameedgul12345/ProjectName.git
+=>git fetch origin Branch_Name
+=>git checkout home
+=>run the project
+-------------------------------------------------------------------------------->
+HOW TO DELETE BRANCH:
+git branch -d Branch_Name
+-------------------------------------------------------------------------------->
+
+FullStack Developer:
+*html
+*css
+*js
+*thailwind
+*react js
+*next js
+*nodejs
+*express
+*mongodb
+*git
+*aws cloud
+--------------------------------------------------------------------------------->
+icons8.com
+--------------------------------------------------------------------------------->
+How to fetch branch code
+=>git fetch origin Branch_Name
+----------------------------------------------------------------------------------->
+How to see branches in your local pc 
+=>git branch
+-------------------------------------------------------------------------------------->
+How to Delete branch
+=>git branch -d Branch_Name
+=>git branch -D Branch_Name
+---------------------------------------------------------------------------------------->
+How to Select branch if branch exist
+=>git checkout Branch_Name
+------------------------------------------------------------------------------------->
+How to Select branch if branch does not exist
+git checkout -b Branch_Name
+=>-------------------------------------------------------------------->
+How to merge two branches
+=>Select branch 
+=>git merge Branch_Name
+---------------------------------------------------------------------->
+How to create new branch
+=>git checkout -b Branch_Name
+------------------------------------------------------------------------>

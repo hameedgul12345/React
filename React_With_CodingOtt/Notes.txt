@@ -132,3 +132,166 @@ SPA is not seo friendly
 React -> NextJS
 Vue  -> NuxtJS
 Angular ->universal
+
+
+How to use icon in your react app
+=>remixicon.com
+=>copy package
+=>Install in your app
+=>copy icon and use it
+
+
+how to use Gradient:
+cssgradient.io
+
+animation:
+animate.style
+
+MAP METHOD:
+
+Online Code Editor For React:
+Stackbitz
+
+Array Destrucring:
+jb app Array me se data copy kartey hen Array k syntax ko follow kartye honey
+
+const student=['ali','peshawar',12]
+const name=student[0]
+const address=student[1]
+const age = student[3]
+
+const student[name,address,age]=['ali','peshawar',12]
+clg(name)
+
+Object Destrucring:
+
+const student={
+  name:'ali',
+  age:'23',
+  address:'peshawar'
+}
+const {name,age,address}={
+  name:'ali',
+  age:'23',
+  address:'peshawar'
+}
+
+Array Destrucring:      ||     Object Destrucring:
+1)const can anything          1)const will same as object proerty
+2)order will same               2)order doess not matter  
+
+const name='ali'
+const {name:fullName,age,address}={
+  name:'ali',
+  age:'23',
+  address:'peshawar'
+}
+
+Condtional Rendering:
+------------------------------------------------------------------->
+1)Ternary Operator:
+(codition ? 'Statemennt':'Statemennt')
+2)Logical AND(&&) Operator:
+Work On True (WOR ON ONLY ONE Conditions)
+(Conditions) && 'Statemennt'
+3)Logical OR(||) Operator:
+(Conditions) || 'Statemennt'
+-------------------------------------------------------------------->
+
+fuuntions:
+CaseStudy 01:Why we write just "onClick={test}" instead of "onClick={test()}"
+Because whenever we don't send any arguments to test function
+const test=()=>{
+  console.log('hello')
+}
+<Button onClick={test}></Button>
+CaseStudy 02:Why we don't write "onClick={test()}"
+Because whenever we render our react app  the test fun will automatically called so
+write this "onClick={()=>{test()}}" in arrow function definition
+
+Hooks:
+Predefine Functions
+useState():
+=>It's store data locally
+=>
+------------------------------------------------------------------------------------------->
+useEffect()
+useRef()
+
+
+why react run twice ?
+Because of Strick Mood
+
+Spread Operator:
+Joint two or more arrays || Joint two or more Objects
+--------------------------------------------------------->
+Arrays:
+--------------------------------------------------------->
+const student1=['ali','khan']
+const student2=['aki','ahmad']
+const allStudents=[student1,student2] "X"
+---------------------------------------------------------->
+Using Spread Operator(...):
+const student1=['ali','khan']
+const student2=['aki','ahmad']              "  /"
+const allStudents=[...student1,...student2] "\/"
+------------------------------------------------------------------->
+Objects:
+------------------------------------------------------------------>
+const marks1={
+  maths:30,
+  english:90
+}
+const marks2={
+  physics:50,
+  science:40
+}
+const allMarks={
+  marks1,
+  marks2
+}
+---------------------------------------------------------------->
+Using Spread Operator(...):
+const marks1={
+  maths:30,
+  english:90
+}
+const marks2={
+  physics:50,
+  science:40
+}
+const allMarks={
+  ...marks1,
+  ...marks2
+}
+--------------------------------------------------------------->
+Library For Alert:
+Sweet Alert
+1)npm install sweetalert2
+--------------------------------------------------------------->
+Note :
+kabhi bhie ager object k ander proerty variable ho usko hm [] 
+k ander lock kartey nahe tu wo us property ko dhondey ga
+
+const [form,setForm]=useState({
+    FullName:'',
+    email:'',
+    age:'',
+    subject:'',
+    marks:'',
+    dob:''
+  })
+
+  
+const handleInput=(e)=>{
+  const input=e.target;
+  const value=input.value;
+  const key=input.name
+  setForm({
+    ....form,
+    [key]:value
+  })
+}
+
+UseRef Hook:
+

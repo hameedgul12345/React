@@ -1,29 +1,3 @@
-// import React from 'react'
-// import { Link } from 'react-router-dom'
-
-// function Footer() {
-//   return (
-//     <footer style={{
-//         background:'#280044',
-//        padding:'80px 10%',
-//        display:'flex'
-//     }}>
-//       <div className={{width:'100%'}}>
-//        <h2 style={{color:'white',fontWeight:'600'}}>
-//         Coding School
-//        </h2>
-//        <p style={{color:'#ccc'}}>I can And I will</p>
-//       </div>
-//       <div className={{width:'100%'}}>
-//       <Link></Link>
-//       </div>
-      
-//     </footer>
-//   )
-// }
-
-// export default Footer
-
 import { Link } from "react-router-dom"
 
 const Footer = ()=>{
