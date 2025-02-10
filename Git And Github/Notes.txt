@@ -83,3 +83,55 @@ How to merge two branches
 How to create new branch
 =>git checkout -b Branch_Name
 ------------------------------------------------------------------------>
+How to cancel merger 
+git merge --abort
+------------------------------------------------------------------------->
+How add all branch and Deploy
+=>Go to first branch
+=>make a new branch "master"
+=>push master branch
+=>set master branch as default branch on remote(github.com)
+(Setting set master branch as default)
+=>Deploy on versale.com
+=>create acount on versale
+=>import projects
+=>Configure Project----->ProjectName---->Deploy
+=>merge all branches with master branch
+ ->git checkout master
+ ->git merge Branch_Name
+ ->git add .
+ ->git commit -m "message"
+ ->git push origin master
+ ->add netlify.toml 
+ [build]
+ command ="npm run build"
+ publish="dist"
+ [[redirects]]
+ from ="/*"
+ to="/index.html"
+ status=200
+ git add .
+ ->git commit -m "message"
+ ->git push origin master
+ 
+ How to run production code on local machine 
+ npm install -g serve
+ serve -s dist
+
+
+
+
+How to Deploy React on Vercel:
+=>create master branch
+=>set as default
+=>merge all branches
+=>add vercel.json
+***************************
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
+    ]
+}
+***************************
+
+git merge Device -m "Merge branch 'Device' into 'master'"

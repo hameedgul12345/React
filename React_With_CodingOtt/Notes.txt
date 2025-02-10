@@ -266,6 +266,7 @@ const allMarks={
 }
 --------------------------------------------------------------->
 Library For Alert:
+
 Sweet Alert
 1)npm install sweetalert2
 --------------------------------------------------------------->
@@ -294,4 +295,43 @@ const handleInput=(e)=>{
 }
 
 UseRef Hook:
+Provide you Native functonality of javascript
+
+
+Rest API :
+jo hr kam k ley alag alag ho awer jo apko server deta ho
+
+HTTp request:
+HTTp request code karney ka tarika hen take hm seerver se kuch 
+mangwasakey ya server pe kuch bachsako js ya react ki madad se ya server se kuch delete karsake
+ya server pe update karsake react ya js ki madad se ya se related koi bhe kam ho tu uske lay 
+apko frontend ko backend se connect karna hogga awer connect karney k ley jis method ka use kia jata hen usko 
+HTTp request kaha jata henn ajax request
+
+
+Two Methods For HTTP Request:
+I)fetch Method
+If the internal code is proisable internally then the success and fail result will be then and catch block
+1).then().catch()
+fetch('')
+.then((response)=>response.json())
+.then((data)=>console.log(data))
+.catch((err)=>console.log(err))
+
+Note:if we use {} braces then we must use return keyword
+2)try{} catch
+const test=async ()=>{
+
+try{
+  const response=await fetch('')
+  const data=response.json
+}
+catch(err){
+  console.log(err)
+}
+
+}
+Note:how set image wiidth in fflex
+width:"calc(width of image - gap in flex)"
+II)Axios Method
 
